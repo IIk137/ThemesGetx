@@ -3,7 +3,6 @@ import 'package:get/get.dart';
 import 'package:themes_project/controllers/theme_controller.dart';
 
 import 'package:themes_project/ui/layout/layout.dart';
-import 'package:themes_project/ui/themes/themes_service.dart';
 import 'package:themes_project/ui/widgets/buttons/primary_button.dart';
 
 class ThemeSettingPage extends StatelessWidget {
