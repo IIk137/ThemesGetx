@@ -36,6 +36,16 @@ class ThemeController extends GetxController {
     );
   }
 
+  setTheme(String theme) {
+    if (theme == 'red') {
+      Get.changeTheme(Themes.red);
+    } else if (theme == 'green') {
+      Get.changeTheme(Themes.green);
+    } else if (theme == 'blue') {
+      Get.changeTheme(Themes.blue);
+    }
+  }
+
   loadTheme() {
     // if (_themeBox.read<String>(themeKey) == '') {
     //   return Themes.blue;

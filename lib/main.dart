@@ -16,9 +16,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    String red = 'red';
+    String blue = 'blue';
+    String green = 'green';
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeController().theme,
+      theme: ThemeController().setTheme(green),
+      // ThemeController().theme,
       title: 'Theme Demo',
       home: const HomePage(),
     );
